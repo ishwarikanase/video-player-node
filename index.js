@@ -8,7 +8,7 @@ mongoose.Promise=global.Promise;
 
 const app=express();
 const port=3000;
-const databaseURL='mongodb://localhost:27017/you-tube';
+const databaseURL='mongodb://localhost:27017/video-player';
 
 app.use(cors());
 
